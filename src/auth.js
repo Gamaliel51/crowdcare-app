@@ -12,6 +12,3 @@ onAuthStateChanged(auth, (user) => {
     console.log('User is signed out');
   }
 });
-
-```
-This code listens for changes in the user's authentication state and performs actions accordingly, such as checking if the user is signed in or out.
